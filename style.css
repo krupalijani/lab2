@@ -1,0 +1,31 @@
+body{
+  background: grey;
+}
+h1{
+  font:verdana;
+  font-size: 60px;
+  text-align:center;
+  color: white;
+}
+header{
+  background:black;
+}
+p{
+  font-size: 25px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.flex-container> a  {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+a:hover {
+    background-color: darkblue;
